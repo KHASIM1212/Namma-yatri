@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body section{
+    background-image: url(./images/homeBg.png);
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+section nav div{
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+section nav div ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    width: auto;
+}
+section nav div ul li{
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    color: rgb(244 244 246 );
+    margin-right: 3rem;
+    font-family: Inter;
+    font-weight: 500;
+}
+section nav div ul li:nth-child(1){
+    color: #fcc32c;
+}
+section >div{
+    display: flex;
+    padding-left: 18rem;
+    padding-right: 20rem;
+    background-color: black;
+    color: #ffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    align-items: center;
+    justify-content: center;
+}
+section > div div{
+    margin-right: 15px;
+}
+section > div >div ul{
+    display: flex;
+    max-width: 40%;
+    /* margin-right: 5px; */
+}
+section > div >div ul li{
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 300;
+    margin-right: 20px;
+}
+section > div #svg {
+    /* padding: 12px 0; */
+    text-align: center;
+    color: #ffff;
+    font-size: 16px;
+    display: flex;
+}
+section > div #svg svg{
+    color: #ffff;
+    fill: rgba(255,255,255,1);
+    display: block;
+}
+/* section #section1{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 200px;
+    width: 50%;
+}
+#section1 #content{
+    width: 80%;
+}
+#section1 h1{
+    font-size: 60px;
+}
+#section1 p{
+            font-size: 1.5rem;
+        line-height: 2rem;
+        color: #e5e7eb;
+} */
+ #section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 10.5rem;
+    padding-right: 9rem;
+    color: white;
+    background-color: transparent;
+}
+#section1 #content{
+    padding-top: 0px;
+}
+
+#section1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#section1 h1 span {
+    color: #fcc32c;
+}
+
+#section1 p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    color: #e5e7eb;
+    line-height: 2rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+#section1 .btn-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+#section1 .btn-group button {
+    background: #2e2e2e;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#section1 .download-btn {
+    background: rgb(255 183 56);
+    color: black;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#section1 div+div img{
+    height: 650px;
+    width: fit-content;
+}
+#section2{
+    height: 100vh;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex: 1; */
+    padding: 0.5rem 9rem;
+    /* padding-right: 9rem; */
+}
+#section2 div h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: 1;
+    color: rgb(69 69 69);
+    margin-bottom: 8px;
+}
+#section2 div hr{
+    width: 128px;
+    height: 0.625rem;
+    opacity: 0.5;
+    background-color: rgb(255 183 56 );
+    border: none;
+}
+#section2 div p{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 300;
+    color: rgb(134 139 152);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+#section2 .download-btn {
+    background: rgb(255 183 56);
+    color: black;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#section2 div+div img{
+    height: 300px;
+    width: fit-content;
+    padding-left: 100px;
+}
+
+#section3{
+    height: 100vh;
+    /* border: 2px solid; */
+    background-color: rgb(44 47 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex: 1; */
+    padding: 0.5rem 10.5rem;
+    /* padding-right: 9rem; */
+}
+#section3 div h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Inter";
+    line-height: 1;
+    /* color: rgb(69 69 69); */
+    margin-bottom: 8px;
+}
+#section3 div hr{
+    width: 128px;
+    height: 0.625rem;
+    opacity: 0.5;
+    background-color: rgb(255 183 56 );
+    border: none;
+}
+#section3 div p{
+    font-size: 1.6rem;
+    line-height: 2.25rem;
+    color: rgb(134 139 152);
+    font-weight: 300;
+    color: rgb(134 139 152);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+#section3 .download-btn {
+    background: rgb(255 183 56);
+    color: black;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#section3 div+div img{
+    height: 300px;
+    width: fit-content;
+    padding-left: 100px;
+}
+#section4{
+    height: 100vh;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex: 1; */
+    padding: 0.5rem 10.5rem;
+    /* padding-right: 9rem; */
+}
+#section4 div h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: 1;
+    color: rgb(69 69 69);
+    margin-bottom: 8px;
+}
+#section4 div hr{
+    width: 128px;
+    height: 0.625rem;
+    opacity: 0.5;
+    background-color: rgb(255 183 56 );
+    border: none;
+}
+#section4 div p{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 300;
+    color: rgb(134 139 152);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+#section4 .download-btn {
+    background: rgb(255 183 56);
+    color: black;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#section4 div+div img{
+    height: 300px;
+    width: fit-content;
+    padding-left: 100px;
+}
+#section5{
+    height: 100vh;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex: 1; */
+    padding: 0.5rem 10.5rem;
+    /* padding-right: 9rem; */
+}
+#section5 div h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: 1;
+    color: rgb(69 69 69);
+    margin-bottom: 8px;
+}
+#section5 div hr{
+    width: 128px;
+    height: 0.625rem;
+    opacity: 0.5;
+    background-color: rgb(255 183 56 );
+    border: none;
+}
+#section5 div p{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 300;
+    color: rgb(134 139 152);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+#section5 button{
+    border: 1px solid var(--Blue-800, #2194ff);
+    border-style: solid;
+    border-color:#2194ff;
+    color: #2194ff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+}
+#section5 div+div svg{
+    height: 300px;
+    width: fit-content;
+    padding-left: 100px;
+}
+#section6{
+    height: 90vh;
+    padding: 4rem 11rem;
+    background-color: rgb(44 47 58);
+    
+}
+#section6 div h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 8px;
+}
+#section6 div hr{
+    width: 128px;
+    height: 0.625rem;
+    opacity: 0.5;
+    background-color: rgb(255 183 56 );
+    border: none;
+}
+#section6 div p{
+    font-size: 29px;
+    line-height: 2.25rem;
+    font-weight: 300;
+    color: rgb(134 139 152);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+#section6 #box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 80px;
+    overflow: hidden;
+}
+#section6 #box-container div{
+    height: 200px;
+    width: 400px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    /* padding: 1rem; */
+    text-align: center;
+     background-color: rgba(44 47 58,0.8);
+}
+#section6 svg{
+    height: 16px;
+    width: 1rem;
+}
+#section6 #box-container div p{
+    font-size: 18px;
+    color: rgb(134 139 152);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#section6 #box-container div .count{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+#section6 #box-container div span{
+    color: rgb(83 187 111);
+    font-size: 20px;
+    font-weight: 500;
+}
+#section6 button{
+    padding: 1.5rem;
+    font-size: 20px;
+    color:rgb(134 139 152) ;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-right: 20px;
+    padding-right: 30px;
+    margin-top: 100px;
+}
+
+#section7{
+    height: 80vh;
+    padding: 6rem 12rem;
+    /* padding-top: 2.5rem; */
+    /* background-color: rgb(44 47 58); */
+    
+}
+#section7 div h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: 1;
+    color: #2e2e2e;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+#section7 div hr{
+    width: 128px;
+    height: 0.625rem;
+    opacity: 0.5;
+    background-color: rgb(255 183 56 );
+    border: none;
+}
+#section7 div button{
+    background-color: rgb(44 47 58 );
+    border-radius: 9999px;
+    /* padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 8px; */
+    padding: 8px 40px 8px;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 25px;
+}
+#section7 div button+button{
+    background-color: #fff;
+    color: rgb(44 47 58 );
+}
+#section7 div+div{
+    margin-top: 60px;
+}
+#section7 div+div ul{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    gap: 8rem;
+}
+#section7 div+div ul li{
+    padding: 30px;
+    text-align: center;
+}
+#section7 div+div ul li p{
+    font-size: 1.625rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    color: rgb(44 47 58 );
+    font-weight: 500;
+}
+#section7 div+div ul li span{
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+    color: rgb(134 139 152);
+    font-weight: 400;    
+}
+#section8{
+    height: 60vh;
+    padding: 6rem 12rem;
+    /* padding-top: 2.5rem; */
+    background-color: rgb(44 47 58);
+    
+}
+#section8 h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#section8 hr{
+    width: 128px;
+    height: 0.625rem;
+    opacity: 0.5;
+    background-color: rgb(255 183 56 );
+    border: none;
+}
+#section8>div{
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+}
+#section8 >div>div{
+    background-color: #fff;
+    height: 58vh;
+    width: auto;
+    padding: 40px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: rgb(134 139 152);
+}
+#section8 >div>div p{
+    font-style: italic;
+    font-weight: 400;
+}
+#section8 >div>div h1{
+    color: rgb(44 47 58);
+    font-size: inherit;
+    margin-top: 1rem;
+}
+#section8>div>div+div{
+    padding: 0;
+}
+#section8>div>div>div{
+    display: flex;
+    margin-top: 30px;
+    gap: 0.75rem;
+}
+#section8 #images{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+#section8 #images img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 9999px;
+    opacity: 0.3;
+}
+#section8 #images img:nth-child(3){
+    opacity: 1;
+}
+#section8 img{
+    height: 62vh;
+    border-radius: 8px;
+}
+#section9{
+    height: 60vh;
+    padding: 6rem 12rem;
+    /* padding-top: 2.5rem; */
+    /* background-color: rgb(44 47 58); */
+    
+}
+#section9 h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: 1;
+    color: #2e2e2e;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#section9 hr{
+    width: 128px;
+    height: 0.625rem;
+    opacity: 0.5;
+    background-color: rgb(255 183 56 );
+    border: none;
+}
+#section9 div ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 2rem;
+    gap: 6rem;
+}
+#section9 div ul li{
+    width: 100px;
+    height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+#section9 div ul li:last-child{
+    margin-left: 60px;
+}
+#section9 p{
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+    color: rgb(134 139 152);
+    font-weight: 400;
+    margin-top: 100px;
+}
+/* #section9 >div >img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+footer{
+    background-color: rgb(44 47 58);
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+footer>div{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div h1{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    color: rgb(255 255 255);
+}
+footer >#last{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(44 47 58) ;
+    gap: 5rem;
+    align-items: flex-start;
+}
+footer #last div{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2.75rem;
+        font-weight:500;
+}
+footer #last div:nth-child(1),footer #last div:nth-child(2){
+    width: 16.666%;
+}
+footer #last div:nth-child(3),footer #last div:nth-child(4){
+    width: 33.333%;
+}
+footer #last div ul{
+    list-style: none;
+    color: rgb(134 139 152);
+}
+footer #last div ul li{
+    margin-bottom: 0.75rem;
+}
+footer #last div ul li p{
+    color: #fff;
+}
+footer h2{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+        color: rgb(134 139 152);
+        font-weight: 400;
+        padding-bottom: 2rem;
+}
